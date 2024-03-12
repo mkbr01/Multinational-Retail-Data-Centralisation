@@ -93,3 +93,18 @@ Data Cleaning: Implemented robust procedures to ensure data quality, including h
 Data Loading: Uploaded cleaned data into PostgreSQL, organizing it into appropriate tables for efficient storage and retrieval.
 
 Process Automation: Developed scripts for automating the data centralization process, improving efficiency and reproducibility.
+
+
+
+File Structure:
+
+multinational-retail-data-centralisation/
+├── database_utils.py
+├── data_extraction.py
+├── data_cleaning.py
+├── db_creds.yaml
+├── README.md
+├── LICENSE.txt
+├── .gitignore
+└── databaseQ.sql
+
