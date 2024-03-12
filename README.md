@@ -8,8 +8,8 @@ Project Overview
 The goal of the Data Centralisation Project is to gather, refine, and merge data from various origins into a single PostgreSQL database. This project tackles the issue encountered by a multinational retailer with dispersed data, which complicates accessibility and analysis. By centralising the data, the project streamlines information handling, maintains data uniformity, and offers a holistic perspective on the company’s activities.
 
 
-Project Dependencies and Requirements
-
+**Project Dependencies and Requirements
+**
 Python Libraries:
 pandas
 numpy
@@ -43,7 +43,7 @@ LOCAL_PORT: "<LOCAL_DB_PORT>"
 LOCAL_DATABASE: "<LOCAL_DATABASE_NAME>"
 
 
-Installation
+**Installation**
 
 Step 1: Clone the Repository
 Clone the repository using Git:
@@ -59,8 +59,8 @@ python3 -m venv venv
 source venv/bin/activate
 pip install pandas numpy sqlalchemy psycopg2 tabula requests boto3 pyyaml
 
-Usage
-
+**Usage
+**
 Credentials
 Ensure PostgreSQL and AWS credentials are set up in YAML files.
 
