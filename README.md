@@ -10,6 +10,7 @@ The goal of the Data Centralisation Project is to gather, refine, and merge data
 
 **Project Dependencies and Requirements
 **
+
 Python Libraries:
 pandas
 numpy
