@@ -25,8 +25,8 @@ Ensure that AWS access key ID and secret access key are properly configured in t
 Database Credentials YAML File:
 
 Create a YAML file named db_creds.yaml with the following structure:
+
 yaml
-Copy code
 RDS_DATABASE_TYPE: "postgresql"
 DB_API: "psycopg2"
 RDS_USER: "<RDS_USERNAME>"
@@ -43,7 +43,7 @@ LOCAL_PORT: "<LOCAL_DB_PORT>"
 LOCAL_DATABASE: "<LOCAL_DATABASE_NAME>"
 
 
-##Installation
+Installation
 
 Step 1: Clone the Repository
 Clone the repository using Git:
@@ -59,7 +59,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install pandas numpy sqlalchemy psycopg2 tabula requests boto3 pyyaml
 
-#Usage
+Usage
 
 Credentials
 Ensure PostgreSQL and AWS credentials are set up in YAML files.
