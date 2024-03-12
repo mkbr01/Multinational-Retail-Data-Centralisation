@@ -43,7 +43,8 @@ LOCAL_PORT: "<LOCAL_DB_PORT>"
 LOCAL_DATABASE: "<LOCAL_DATABASE_NAME>"
 
 
-Installation
+##Installation
+
 Step 1: Clone the Repository
 Clone the repository using Git:
 
@@ -58,7 +59,8 @@ python3 -m venv venv
 source venv/bin/activate
 pip install pandas numpy sqlalchemy psycopg2 tabula requests boto3 pyyaml
 
-Usage
+#Usage
+
 Credentials
 Ensure PostgreSQL and AWS credentials are set up in YAML files.
 
@@ -71,6 +73,7 @@ bash
 
 
 ### Milestones
+
 1. **Data Extraction and Cleaning:** Extracted data from various sources, including RDS Tables, PDFs, APIs, and AWS S3 Buckets. Implemented thorough data cleaning processes to ensure accuracy and consistency.
 2. **Data Wrangling and Formatting with PostgreSQL:** Ensured data were stored in correct types within tables. Tasks included determining maximum character limits for VARCHAR data and updating tables accordingly.
 3. **Developed Star-Based Schema:** Established the star-based schema of the database, ensuring columns adhered to correct data types.
@@ -79,6 +82,7 @@ bash
 
 
 ### Project Conclusion
+
 The Multinational Retail Data Centralisation project successfully centralized retail data from multiple multinational retail entities into a unified PostgreSQL database. Key accomplishments include:
 
 Data Extraction: Utilized various methods to extract data from relational databases, PDF files, and S3 buckets.
