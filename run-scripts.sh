@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the path to your virtual environment
-VENV_PATH="/home/mk/Documents/ai-core/pro3.1/multinational-retail-data-centralisation/test/myvenv"
+VENV_PATH="/myvenv"
 
 # Execute database_utils.py
 "${VENV_PATH}/bin/python" database_utils.py
